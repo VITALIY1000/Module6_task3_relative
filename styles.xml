@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light">
+        <item name="android:colorPrimary">@color/primaryColor</item>
+        <item name="android:colorPrimaryDark">@color/primaryColorDark</item>
+        <item name="android:colorAccent">@color/accentColor</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+    
+    <style name="TextStyle">
+        <item name="android:textSize">13sp</item>
+    </style>
+    
+    <style name="TextStyle.Black" parent="TextStyle">
+    	<item name="android:textColor">@color/black</item>
+    </style>
+    
+    <style name="BorderStyle">
+        <item name="android:background">@color/lightGray</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+</resources>

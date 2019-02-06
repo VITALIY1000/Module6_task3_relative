@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Задание: CE-1257218</string>
+    <string name="title_text">Коммунальное хозяйство</string>
+    <string name="title_data">В работе</string>
+    <string name="subtitle1_text">Создано</string>
+    <string name="subtitle1_data">27 января 2016</string>
+    <string name="subtitle2_text">Зарегистрировано</string>
+    <string name="subtitle2_data">27 января 2016</string>
+    <string name="subtitle3_text">Выполнить до</string>
+    <string name="subtitle3_data">27 января 2016</string>
+    <string name="subtitle4_text">Ответственный</string>
+    <string name="subtitle4_data">Днепропетровский МВК</string>
+    <string name="content">
+    Когда-то давно, не по моей памяти, наверное, еще и 
+отцов и дедов наших не было на свете, жил скудный 
+мужчина с женщиной, а у них был одним один сын, 
+да и тот не такой как надо: такое лентяй он был, 
+что господи!
+    </string>
+</resources>

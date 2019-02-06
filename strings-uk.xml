@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Завдання: CE-1257218</string>
+    <string name="title_text">Комунальне господарство</string>
+    <string name="title_data">В роботі</string>
+    <string name="subtitle1_text">Створено</string>
+    <string name="subtitle1_data">27 січня 2016</string>
+    <string name="subtitle2_text">Зареєстровано</string>
+    <string name="subtitle2_data">27 січня 2016</string>
+    <string name="subtitle3_text">Виконати до</string>
+    <string name="subtitle3_data">27 січня 2016</string>
+    <string name="subtitle4_text">Відповідальний</string>
+    <string name="subtitle4_data">Дніпропетровський МВК</string>
+    <string name="content">
+    Колись-то давно, не з моєї пам\'яті, мабуть ще й
+батьків і дідів наших не було на світі, жив собі
+убогий чоловік з жінкою, а у них був одним один
+син, та й той не такий як треба: таке ледащо той
+одинчик, що господи!
+    </string>
+</resources>
