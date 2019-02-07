@@ -3,167 +3,148 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="8dp">
         
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
-        
-            <TextView
-                android:id="@+id/title"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:paddingTop="8dp"
-                android:paddingBottom="8dp"
-                android:text="@string/title_text"
-                style="@style/TextStyle.Black"
-                android:textStyle="bold" />
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/title_text"
+            style="@style/TextStyle.Black"
+            android:textStyle="bold" />
             
-            <TextView
-                android:id="@+id/status"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="@string/title_data"
-                android:textColor="@color/white"
-                style="@style/TextStyle"
-                android:background="@drawable/oval" />
-        
-        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/title_data"
+            android:textColor="@color/white"
+            style="@style/TextStyle"
+            android:background="@drawable/oval"
+            android:layout_alignParentRight="true" />
         
         <View
+            android:id="@+id/border1"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             style="@style/BorderStyle"
-            android:layout_marginTop="4dp" />
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/title" />
         
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/subtitle1"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
-        
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/subtitle1_text"
-                style="@style/TextStyle.Black" />
+            android:text="@string/subtitle1_text"
+            style="@style/TextStyle.Black"
+            android:layout_below="@id/border1" />
             
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/subtitle1_data"
-                style="@style/TextStyle" />
-            
-        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subtitle1_data"
+            style="@style/TextStyle"
+            android:layout_below="@id/border1"
+            android:layout_alignParentRight="true" />
         
         <View
+            android:id="@+id/border2"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            style="@style/BorderStyle" />
+            style="@style/BorderStyle"
+            android:layout_below="@id/subtitle1" />
         
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/subtitle2"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
-        
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/subtitle2_text"
-                style="@style/TextStyle.Black" />
+            android:text="@string/subtitle2_text"
+            style="@style/TextStyle.Black"
+            android:layout_below="@id/border2" />
             
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/subtitle2_data"
-                style="@style/TextStyle" />
-        
-        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subtitle2_data"
+            style="@style/TextStyle"
+            android:layout_below="@id/border2"
+            android:layout_alignParentRight="true" />
         
         <View
+            android:id="@+id/border3"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            style="@style/BorderStyle" />
+            style="@style/BorderStyle"
+            android:layout_below="@id/subtitle2" />
         
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/subtitle3"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
-        
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/subtitle3_text"
-                style="@style/TextStyle.Black" />
+            android:text="@string/subtitle3_text"
+            style="@style/TextStyle.Black"
+            android:layout_below="@id/border3" />
             
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/subtitle3_data"
-                style="@style/TextStyle" />
-        
-        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subtitle3_data"
+            style="@style/TextStyle"
+            android:layout_below="@id/border3"
+            android:layout_alignParentRight="true" />
         
         <View
+            android:id="@+id/border4"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            style="@style/BorderStyle" />
+            style="@style/BorderStyle"
+            android:layout_below="@id/subtitle3" />
         
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/subtitle4"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
-        
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/subtitle4_text"
-                style="@style/TextStyle.Black" />
+            android:text="@string/subtitle4_text"
+            style="@style/TextStyle.Black"
+            android:layout_below="@id/border4" />
             
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/subtitle4_data"
-                style="@style/TextStyle" />
-        
-        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subtitle4_data"
+            style="@style/TextStyle"
+            android:layout_below="@id/border4"
+            android:layout_alignParentRight="true" />
         
         <View
+            android:id="@+id/border5"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            style="@style/BorderStyle" />
+            style="@style/BorderStyle"
+            android:layout_below="@id/subtitle4" />
         
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
-        
-            <TextView
-                android:id="@+id/content"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/content"
-                style="@style/TextStyle.Black" />
-        
-        </LinearLayout>
+            android:text="@string/content"
+            style="@style/TextStyle.Black"
+            android:layout_below="@id/border5" />
         
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/desertcity" />
+            android:src="@drawable/desertcity"
+            android:layout_below="@id/content" />
         
-    </LinearLayout>
+    </RelativeLayout>
         
 </ScrollView>
